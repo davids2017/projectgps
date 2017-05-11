@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_first"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="pl.dawidszczesniak.rejestrator.FirstActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_weight="1"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="IP:Port/nazwa_bazy"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/textView"
+        android:layout_weight="1"
+        android:textColor="@color/cast_expanded_controller_progress_text_color" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText1"
+        android:layout_weight="1"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="Użytkownik"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/textView1"
+        android:layout_weight="1"
+        android:textColor="@color/cast_expanded_controller_progress_text_color" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_weight="1"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="Hasło"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/textView2"
+        android:layout_weight="1"
+        android:textColor="@color/cast_expanded_controller_progress_text_color" />
+
+    <Button
+        android:text="Zapisz dane"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/button10"
+        android:layout_weight="1" />
+
+    <Button
+        android:text="Wczytaj ostatnio zapisane dane"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/button11"
+        android:layout_weight="1" />
+
+    <Button
+        android:text="Przejdź do lokalizowania"
+        android:layout_width="match_parent"
+        android:id="@+id/button12"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+
+</LinearLayout>
